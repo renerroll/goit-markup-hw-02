@@ -1,8 +1,6 @@
 :root {
-    /* Fonts */
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
-    /* Colors */
     --accent-100: #4d5ae5;
     --accent-200: #404bbf;
   
@@ -18,10 +16,8 @@
     --light-400: #e7e9fc;
   
     --system-100: #31d0aa;
-    /* Others */
   }
   
-  /* #region Base */
   body {
     font-family: var(--primary-font);
     color: var(--main-200);
@@ -84,11 +80,6 @@
   .btn:focus {
     background: var(--accent-200);
   }
-  /* Filters btn */
-  .filters {
-  }
-  .filters-item {
-  }
   .filters-btn {
     font-weight: 500;
     line-height: 1.5;
@@ -101,18 +92,6 @@
     color: var(--light-100);
     background: var(--accent-200);
   }
-  /* #endregion Common */
-  /* #region Header */
-  .header {
-  }
-  .header-nav {
-  }
-  .nav {
-  }
-  .nav-menu {
-  }
-  .nav-menu-item {
-  }
   .nav-menu-link {
     font-weight: 500;
     line-height: 1.5;
@@ -121,14 +100,6 @@
   .nav-menu-link:hover,
   .nav-menu-link:focus {
     color: var(--accent-200);
-  }
-  .header-contacts {
-  }
-  .contacts {
-  }
-  .contacts-list {
-  }
-  .contacts-item {
   }
   .contacts-link {
     line-height: 1.5;
@@ -139,8 +110,6 @@
   .contacts-link:focus {
     color: var(--accent-200);
   }
-  /* #endregion Header */
-  /* #region Hero */
   .hero {
     background: var(--main-100);
   }
@@ -150,14 +119,6 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-  }
-  /* #endregion Hero */
-  /* #region Features */
-  .features {
-  }
-  .features-list {
-  }
-  .features-item {
   }
   .features-caption {
     font-weight: 500;
@@ -170,26 +131,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-  /* #endregion Features */
-  /* #region Tasks */
-  .tasks {
-  }
-  .tasks-list {
-  }
-  .tasks-item {
-  }
-  .tasks-ill {
-  }
-  /* #endregion Tasks */
-  /* #region Team */
   .team {
     background: var(--light-300);
-  }
-  .team-list {
-  }
-  .team-item {
-  }
-  .team-avatar {
   }
   .team-member {
     font-weight: 500;
@@ -204,31 +147,13 @@
     letter-spacing: 0.02em;
     text-align: center;
   }
-  /* #endregion Team */
-  /* #region Footer */
   .footer {
     background: var(--main-100);
-  }
-  .footer-logo {
   }
   .footer-slogan {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light-300);
-  }
-  /* #endregion Footer */
-  /* #region Portfolio */
-  .portfolio {
-  }
-  .portfolio-filters {
-  }
-  .portfolio-gallery {
-  }
-  .gallery {
-  }
-  .gallery-item {
-  }
-  .gallery-ill {
   }
   .gallery-caption {
     font-weight: 500;
@@ -241,4 +166,3 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-  /* #endregion Portfolio */
